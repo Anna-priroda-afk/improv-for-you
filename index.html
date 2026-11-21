@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Театр импровизации длинной формы. Одна история, которая рождается прямо на сцене — без сценария и повторов.">
+  <meta name="theme-color" content="#0d0c10">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <title>Проза жизни — театр импровизации</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="На главную">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none"><path d="M20 3v34M3 20h34M8 8l24 24M32 8 8 32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </span>
+        <span class="brand-text"><span data-brand-name>Проза жизни</span><small>театр импровизации</small></span>
+      </a>
+
+      <nav class="site-nav" id="site-nav" aria-label="Главная навигация">
+        <a href="#about">О формате</a>
+        <a href="#formats">Форматы</a>
+        <a href="#team">Команда</a>
+        <a href="#schedule">Афиша</a>
+        <a href="#school">Школа</a>
+        <a class="nav-contact" href="#contact">Написать нам</a>
+      </nav>
+
+      <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow reveal"><span class="eyebrow-dot"></span> Импровизация длинной формы · <span data-city>Ростов-на-Дону</span></p>
+          <h1 class="hero-title reveal">
+            История,<br>
+            которая <em>рождается</em><br>
+            на ваших глазах
+          </h1>
+          <p class="hero-lead reveal">Ни сценария, ни репетиции, ни второго дубля. Всего одна идея — и целый вечер, в котором мы вместе с вами придумываем мир.</p>
+          <div class="hero-actions reveal">
+            <a class="btn btn-primary" href="#schedule">Посмотреть афишу <span aria-hidden="true">→</span></a>
+            <a class="btn btn-ghost" href="#about">Что такое длинная форма</a>
+          </div>
+          <div class="hero-stats reveal">
+            <div><strong data-stat-minutes>90</strong><span>минут без паузы</span></div>
+            <div><strong>1</strong><span>единственный показ</span></div>
+            <div><strong data-stat-shows>120+</strong><span>сыгранных историй</span></div>
+          </div>
+        </div>
+
+        <div class="hero-art reveal" aria-hidden="true">
+          <div class="stage-beam beam-one"></div>
+          <div class="stage-beam beam-two"></div>
+          <div class="hero-poster">
+            <div class="poster-noise"></div>
+            <svg class="poster-ring" viewBox="0 0 300 300">
+              <defs><path id="ringPath" d="M150,150 m-112,0 a112,112 0 1,1 224,0 a112,112 0 1,1 -224,0"/></defs>
+              <text><textPath href="#ringPath">• НЕТ СЦЕНАРИЯ • НЕТ ПОВТОРОВ • ТОЛЬКО ЗДЕСЬ И СЕЙЧАС •&nbsp;</textPath></text>
+            </svg>
+            <div class="poster-center">
+              <span class="poster-small">труппа</span>
+              <strong data-brand-short>ПЖ</strong>
+              <span class="poster-small">long form improv</span>
+            </div>
+            <span class="poster-star star-1">✳</span>
+            <span class="poster-star star-2">✳</span>
+            <span class="poster-star star-3">✳</span>
+          </div>
+          <div class="floating-note note-1"><span class="note-dot"></span> сцена 1 <span class="note-arrow">↗</span></div>
+          <div class="floating-note note-2"><span class="note-dot"></span> тема вернулась <span class="note-arrow">↘</span></div>
+          <div class="floating-note note-3"><span class="note-dot"></span> финал <span class="note-arrow">→</span></div>
+        </div>
+      </div>
+
+      <div class="scroll-cue" aria-hidden="true"><span></span> листайте вниз</div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>без сценария <b>✳</b> без повторов <b>✳</b> одна история на вечер <b>✳</b> слушай и отвечай <b>✳</b></span>
+        <span>без сценария <b>✳</b> без повторов <b>✳</b> одна история на вечер <b>✳</b> слушай и отвечай <b>✳</b></span>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-number">01 / О формате</span>
+          <h2>Не отдельные номера.<br><em>Одна большая история.</em></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p class="lead">В короткой импровизации комики играют быстрые сценки: предложил — сыграл — закончил. В длинной форме всё иначе.</p>
+            <p>Мы берём одну тему и разворачиваем её в полноценное представление. Персонажи появляются снова, случайная деталь из первой сцены становится ключевой в последней, а зрители замечают связи, которые мы сами не планировали.</p>
+            <p>Это ближе к театру, чем к стендапу: здесь важны не шутки, а внимание, доверие и умение подхватить то, что предлагает сцена.</p>
+            <a class="text-link" href="#formats">Посмотреть наши форматы <span aria-hidden="true">↗</span></a>
+          </div>
+
+          <div class="about-cards">
+            <article class="feature-card reveal">
+              <span class="feature-index">01</span>
+              <h3>Слушаем больше, чем говорим</h3>
+              <p>Каждая реплика — это подарок партнёру. Мы принимаем его и строим дальше, не пытаясь угадать «правильный» ход.</p>
+            </article>
+            <article class="feature-card reveal">
+              <span class="feature-index">02</span>
+              <h3>Связи вместо номеров</h3>
+              <p>Сцены не сменяют друг друга — они накладываются. То, что сказано в начале, возвращается в новом смысле в конце.</p>
+            </article>
+            <article class="feature-card reveal">
+              <span class="feature-index">03</span>
+              <h3>Зритель — соавтор</h3>
+              <p>Тема, слово или ситуация приходят из зала. Без этого толчка история не начнётся, и каждый вечер она будет своей.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMATS -->
+    <section class="section formats" id="formats">
+      <div class="container">
+        <div class="section-head section-head--split reveal">
+          <div>
+            <span class="section-number">02 / Форматы</span>
+            <h2>Пять способов<br><em>начать историю</em></h2>
+          </div>
+          <p>У каждого формата свои правила и своя драматургия. Выберите, какой вечер вам ближе.</p>
+        </div>
+
+        <div class="format-tabs reveal" role="tablist" aria-label="Форматы выступлений" id="format-tabs"></div>
+        <div class="format-panel reveal" id="format-panel"></div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section process">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-number">03 / Как это работает</span>
+          <h2>Вечер из четырёх<br><em>движений</em></h2>
+        </div>
+        <ol class="steps">
+          <li class="step reveal"><span class="step-num">01</span><h3>Искра из зала</h3><p>Просим у зрителей слово, ситуацию или вопрос — и начинаем с первого же ответа.</p></li>
+          <li class="step reveal"><span class="step-num">02</span><h3>Первые персонажи</h3><p>На сцене появляются герои. Мы запоминаем их голоса, привычки и мелкие детали.</p></li>
+          <li class="step reveal"><span class="step-num">03</span><h3>Мир разрастается</h3><p>Сцены связываются, темы возвращаются, разрозненные эпизоды складываются в единую историю.</p></li>
+          <li class="step reveal"><span class="step-num">04</span><h3>Финальный возврат</h3><p>Всё, что было разбросано по вечеру, собирается в один последний удар — и занавес.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="section team" id="team">
+      <div class="container">
+        <div class="section-head section-head--split reveal">
+          <div>
+            <span class="section-number">04 / Команда</span>
+            <h2>Люди, которые<br><em>держат историю</em></h2>
+          </div>
+          <p>Команда длинной импровизации из Ростова-на-Дону. Зритель — наш главный источник вдохновения, поэтому перед спектаклем мы обязательно с вами поговорим.</p>
+        </div>
+
+        <div class="team-story reveal">
+          <div class="team-story-main">
+            <span class="section-number">Кто мы и как играем</span>
+            <h3>Обычные люди, отношения<br><em>и точечный абсурд</em></h3>
+            <p>Строим истории про обычных людей — бережно разбираем отношения, подсвечиваем их тонким юмором. А когда нужно сделать деталь или характер ярче, добавляем точечные нотки абсурда — ровно столько, сколько нужно.</p>
+            <p>Играем без сценария, но с вниманием к ритму и деталям. Зритель, ты — наш главный источник вдохновения! До спектакля мы обязательно поговорим: вдохновимся твоей историей, случайной репликой или даже одной фразой — и сыграем то, что тебе близко.</p>
+          </div>
+          <div class="team-story-side">
+            <div class="team-story-item"><span>Где играли</span><p>МИФ, «Шамайка», «10 лет импрова в Ростове‑на‑Дону», ЦИЦ, ЦКИ, «Циферблат».</p></div>
+            <div class="team-story-item"><span>Для кого</span><p>Для тех, кто любит следить за развитием событий, задумываться над тем, почему всё происходит именно так, и смеяться над лёгкими импровизационными шутками.</p></div>
+            <div class="team-story-item secret"><span>Наш секрет</span><p>В команде есть участник, который в импровизации с 2013 года. Пока не скажем, кто это — пусть будет интригой. 😉</p></div>
+          </div>
+        </div>
+
+        <div class="team-grid" id="team-grid"></div>
+      </div>
+    </section>
+
+    <!-- SCHEDULE -->
+    <section class="section schedule" id="schedule">
+      <div class="container">
+        <div class="section-head section-head--split reveal">
+          <div>
+            <span class="section-number">05 / Афиша</span>
+            <h2>Ближайшие<br><em>выступления</em></h2>
+          </div>
+          <a class="text-link" href="#contact">Хотите выступление у вас? <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="event-list" id="event-list"></div>
+        <p class="schedule-note reveal">Даты и площадки могут меняться — уточняйте билеты у организатора.</p>
+      </div>
+    </section>
+
+    <!-- SCHOOL -->
+    <section class="section school" id="school">
+      <div class="container school-inner">
+        <div class="school-copy reveal">
+          <span class="section-number">06 / Школа</span>
+          <h2>Научитесь<br><em>не придумывать,</em><br>а замечать</h2>
+          <p>Курсы длинной формы для тех, кто уже пробовал импровизацию и хочет больше: глубже слушать, смелее повторяться, строить историю вместе с партнёром.</p>
+          <div class="school-meta">
+            <span data-school-duration>8 недель</span><span data-school-group>группы до 12 человек</span><span data-school-extra>открытые репетиции</span>
+          </div>
+          <a class="btn btn-primary" href="#contact">Узнать о наборе <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="school-art reveal" aria-hidden="true">
+          <div class="school-card card-a"><span>да</span><small>и...</small></div>
+          <div class="school-card card-b"><span>и?</span><small>да, и...</small></div>
+          <div class="school-card card-c"><span>да, и</span><small>продолжай</small></div>
+          <div class="school-ring"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="section reviews" id="reviews">
+      <div class="container">
+        <div class="section-head section-head--split reveal">
+          <div>
+            <span class="section-number">07 / Отзывы</span>
+            <h2>Что говорят<br><em>в зале</em></h2>
+          </div>
+          <div class="slider-controls">
+            <button class="slider-btn" id="review-prev" type="button" aria-label="Предыдущий отзыв">←</button>
+            <button class="slider-btn" id="review-next" type="button" aria-label="Следующий отзыв">→</button>
+          </div>
+        </div>
+        <div class="review-track" id="review-track" tabindex="0" aria-label="Отзывы зрителей"></div>
+        <div class="review-dots" id="review-dots" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq" id="faq">
+      <div class="container faq-grid">
+        <div class="faq-head reveal">
+          <span class="section-number">08 / Вопросы</span>
+          <h2>Перед тем,<br><em>как прийти</em></h2>
+          <p>Не нашли ответ? Напишите нам — объясним подробнее.</p>
+          <a class="text-link" href="#contact">Задать вопрос <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="faq-list reveal" id="faq-list"></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <span class="section-number">09 / Контакты</span>
+          <h2>Давайте<br><em>начнём историю</em></h2>
+          <p>Приглашайте нас на корпоратив, фестиваль или в свой город. Или просто напишите, чтобы узнать расписание.</p>
+          <div class="contact-list">
+            <a href="mailto:hello@example.com" data-contact-mail><span>Почта</span><strong data-contact-email>hello@example.com</strong></a>
+            <a href="https://t.me/your_troupe" data-contact-tg><span>Телеграм</span><strong data-contact-telegram>@your_troupe</strong></a>
+            <a href="tel:+79990000000" data-contact-phone-link><span>Телефон</span><strong data-contact-phone>+7 (999) 000-00-00</strong></a>
+            <div><span>Где играем</span><strong data-contact-venue>Камерный зал «Подвал»</strong></div>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contact-form" novalidate>
+          <div class="form-row">
+            <label>Ваше имя<input type="text" name="name" placeholder="Как к вам обращаться" required></label>
+            <label>Контакт<input type="text" name="contact" placeholder="Телефон, почта или телеграм" required></label>
+          </div>
+          <label>Что вас интересует?
+            <select name="topic">
+              <option>Билеты на выступление</option>
+              <option>Приглашение на событие</option>
+              <option>Курсы и мастер-классы</option>
+              <option>Другое</option>
+            </select>
+          </label>
+          <label>Сообщение<textarea name="message" rows="4" placeholder="Расскажите пару слов о вашей идее" required></textarea></label>
+          <button class="btn btn-primary" type="submit">Отправить <span aria-hidden="true">→</span></button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          <p class="form-note">Нажимая кнопку, вы соглашаетесь с обработкой персональных данных.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <span class="footer-kicker">театр импровизации</span>
+          <div class="footer-wordmark" data-brand-name>Проза жизни</div>
+        </div>
+        <nav class="footer-nav" aria-label="Навигация в подвале">
+          <a href="#about">О формате</a>
+          <a href="#formats">Форматы</a>
+          <a href="#team">Команда</a>
+          <a href="#schedule">Афиша</a>
+          <a href="#school">Школа</a>
+          <a href="#contact">Контакты</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> <span data-brand-name>Проза жизни</span>. Каждый вечер — впервые.</span>
+        <a href="#top">Наверх ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
